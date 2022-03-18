@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -8,7 +8,15 @@
     <title>Document</title>
 </head>
 <body>
-    Hello
-    <a href="/hello">hello</a>
+<div class="container">
+    <div>
+        <h1>Hello Spring</h1>
+        <p>회원기능</p>
+        <p>
+            <a href="/members/new">회원가입</a>
+            <a href="/members">회원 목록</a>
+        </p>
+    </div>
+</div>
 </body>
 </html>
